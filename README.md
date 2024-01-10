@@ -199,10 +199,10 @@ Integrating Microsoft Entra ID with Azure SQL Database offers a range of advanta
 
 In addition to the admin account, you can grant access to Azure SQL Database for specific Microsoft Entra users or groups. Microsoft Entra users can have varying levels of permissions, depending on their roles and responsibilities within your organization.
 
-Common Roles for Microsoft Entra Users in Azure SQL Database include:
-- db_datareader: This role grants read-only access to the database, allowing users to view data but not modify or alter it
-- db_datawriter: This role grants write access to the database, allowing users to modify data but not perform certain administrative tasks
-- db_owner: This role provides full control over the database, including the ability to modify schema, data, and grant permissions to other users
+***Common Roles for Microsoft Entra Users in Azure SQL Database include:***
+- _db_datareader_: This role grants read-only access to the database, allowing users to view data but not modify or alter it
+- _db_datawriter_: This role grants write access to the database, allowing users to modify data but not perform certain administrative tasks
+- _db_owner_: This role provides full control over the database, including the ability to modify schema, data, and grant permissions to other users
 
 
 2. **Create DB Reader user:**
@@ -216,7 +216,6 @@ Common Roles for Microsoft Entra Users in Azure SQL Database include:
 CREATE USER [DB_Reader@yourdomain.com] FROM EXTERNAL PROVIDER;
 
 ALTER ROLE db_datareader ADD MEMBER [DB_Reader@yourdomain.com];
-
 ```
 
 [Db_Reader] represents the name of the Microsoft Entra user you just created. 
