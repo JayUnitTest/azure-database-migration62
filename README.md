@@ -1,6 +1,6 @@
 # Azure Database Migration 
 
-This project is dedicated to the implementation of a robust, cloud-based database system utilizing Microsoft Azure, showcasing expertise in cloud engineering.
+This project is dedicated to architecting and implementing a robust, cloud-based database system on Microsoft Azure, showcasing expertise in cloud engineering. It encompasses the setup of a production environment, migration to Azure SQL Database, disaster recovery simulations, data backup and restoration, automated scheduling, geo-replication, failover configurations and the integration of Microsoft Entra ID. The comprehensive approach aims to demonstrate proficiency in cloud-based database management, ensuring data integrity, availability, and security throughout various scenarios and configurations on the Azure platform.
 
 ## Environment Setup
 
