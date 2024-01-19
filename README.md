@@ -1,6 +1,27 @@
 # Azure Database Migration 
 
+## Table of Contents 
+- [Azure Database Migration](#azure-database-migration)
+  - [Table of Contents](#table-of-contents)
+  - [Project Description](#project-description)
+    - [Project Architecture](#project-architecture)
+  - [Environment Setup](#environment-setup)
+    - [Prerequisites:](#prerequisites)
+  - [Migrating to Azure SQL Database](#migrating-to-azure-sql-database)
+  - [Data Backup and Restore](#data-backup-and-restore)
+  - [Disaster Recovery Simulation](#disaster-recovery-simulation)
+  - [Geo Replication and Failover](#geo-replication-and-failover)
+  - [Failover and Tailback](#failover-and-tailback)
+  - [Microsoft Entra Directory Integration](#microsoft-entra-directory-integration)
+    - [What is Microsoft Entra?](#what-is-microsoft-entra)
+    - [***Conclusion***](#conclusion)
+
+## Project Description
 This project is dedicated to architecting and implementing a robust, cloud-based database system on Microsoft Azure, showcasing expertise in cloud engineering. It encompasses the setup of a production environment, migration to Azure SQL Database, disaster recovery simulations, data backup and restoration, automated scheduling, geo-replication, failover configurations and the integration of Microsoft Entra ID. The comprehensive approach aims to demonstrate proficiency in cloud-based database management, ensuring data integrity, availability, and security throughout various scenarios and configurations on the Azure platform.
+
+### Project Architecture
+
+![project-diagram](<Azure Project Diagram.jpeg>)
 
 ## Environment Setup
 
